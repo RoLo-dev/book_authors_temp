@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wrapper{
+    width: 90%;
+    margin: 10rem auto 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+form input,
+form textarea{
+    margin-bottom: 10px;
+}
+.bottom{
+    margin-top: 5rem;
+}
+.btn-add{
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #000;
+    outline: 0;
+    padding: 3px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.btn-add:hover{
+    background-color: transparent;
+    color: #000;
+    transition: all 0.3s;
+}
